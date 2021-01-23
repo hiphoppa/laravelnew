@@ -25,3 +25,6 @@ Route::get('/list', function () {
 Route::get('/emptylist', function () {
     return view('emptylist');
 });
+Route::get('/login', function () {
+    return view('login');
+});
