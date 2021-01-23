@@ -36,25 +36,25 @@
                 </button>
             </div>
         </div>
-        <div class="mt-4">
+        {{-- <div class=""> --}}
             <div class="flex flex-col">
-                <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-                    <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+                <div class="my-2 overflow-x-auto">
+                    <div class="py-2 align-middle inline-block w-full">
                         <div class="overflow-hidden">
-                            <table class="min-w-full divide-y rtl mb-4 rounded-md overflow-hidden">
+                            <table class="w-full divide-y rtl mb-4 rounded-md overflow-hidden">
                                 <thead class="bg-white">
                                     <tr class="">
                                         <th scope="col"
-                                            class="px-2 w-6 py-3 border border-gray-200 text-left text-xs font-medium text-gray-500 relative">
+                                            class="px-2 min-w-1.5 py-3 border border-gray-200 text-left text-xs font-medium text-gray-500 relative">
                                             <span
                                                 class="w-6 h-6 bg-white flex rounded-full border border-gray-300 cursor-pointer"></span>
                                         </th>
                                         <th scope="col"
-                                            class="px-2 py-3 min-w-6 w-box text-center border border-gray-200 text-sm md:text-md font-bold text-gray-800">
+                                            class="px-2 py-3 min-w-9 w-box text-center border border-gray-200 text-sm md:text-md font-bold text-gray-800">
                                             تصویر کالا
                                         </th>
                                         <th scope="col"
-                                            class="px-6 py-3 border min-w-6 w-48 border-gray-200 text-sm md:text-md font-bold text-gray-800">
+                                            class="px-6 py-3 border min-w-12 w-48 border-gray-200 text-sm md:text-md font-bold text-gray-800">
                                             <div class="flex justify-between">
                                                 <span class="">نام کالا</span>
                                                 <span class="">
@@ -63,7 +63,7 @@
                                             </div>
                                         </th>
                                         <th scope="col"
-                                            class="px-6 py-3 border min-w-6 w-48 border-gray-200 text-sm md:text-md font-bold text-gray-800">
+                                            class="px-6 py-3 border min-w-12  border-gray-200 text-sm md:text-md font-bold text-gray-800">
                                             <div class="flex justify-between">
                                                 <span class="">کد کالا</span>
                                                 <span class="">
@@ -72,7 +72,7 @@
                                             </div>
                                         </th>
                                         <th scope="col"
-                                            class="px-2 py-3 border w-price border-gray-200 text-sm md:text-md font-bold text-gray-800">
+                                            class="px-2 py-3 border min-w-8 border-gray-200 text-sm md:text-md font-bold text-gray-800">
                                             <div class="flex justify-between">
                                                 <span class="">قیمت</span>
                                                 <span class="">
@@ -81,15 +81,15 @@
                                             </div>
                                         </th>
                                         <th scope="col"
-                                            class="px-1 py-3 w-24 text-center border border-gray-200 text-sm md:text-md font-bold text-gray-800">
+                                            class="px-1 py-3 min-w-6 text-center border border-gray-200 text-sm md:text-md font-bold text-gray-800">
                                             موجودی
                                         </th>
                                         <th scope="col"
-                                            class="px-2 py-3 min-w-6 w-52 text-center border border-gray-200 text-sm md:text-md font-bold text-gray-800">
+                                            class="px-2 py-3 min-w-13 w-52 text-center border border-gray-200 text-sm md:text-md font-bold text-gray-800">
                                             دسته بندی
                                         </th>
                                         <th scope="col"
-                                            class="px-6 w-empty py-3 text-center border border-gray-200 text-sm md:text-md font-bold text-gray-800">
+                                            class="px-6 min-w-5 py-3 text-center border border-gray-200 text-sm md:text-md font-bold text-gray-800">
                                             {{-- ویرایش --}}
                                         </th>
                                     </tr>
@@ -180,7 +180,7 @@
                                         <td class="px-2 w-6 py-3 relative text-center">
                                             <button
                                                 class="px-2 py-1 gap-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
-                                                <i class="fa fa-edit text-md"></i>
+                                                <i class="fa fa-edit text-md my-auto"></i>
                                                 <span class="">ویرایش</span>
                                             </button>
                                         </td>
@@ -225,7 +225,7 @@
                                         <td class="px-2 w-6 py-3 relative text-center">
                                             <button
                                                 class="px-2 py-1 gap-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
-                                                <i class="fa fa-edit text-md"></i>
+                                                <i class="fa fa-edit text-md my-auto"></i>
                                                 <span class="">ویرایش</span>
                                             </button>
                                         </td>
@@ -270,7 +270,7 @@
                                         <td class="px-2 w-6 py-3 relative text-center">
                                             <button
                                                 class="px-2 py-1 gap-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
-                                                <i class="fa fa-edit text-md"></i>
+                                                <i class="fa fa-edit text-md my-auto"></i>
                                                 <span class="">ویرایش</span>
                                             </button>
                                         </td>
@@ -315,7 +315,7 @@
                                         <td class="px-2 w-6 py-3 relative text-center">
                                             <button
                                                 class="px-2 py-1 gap-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
-                                                <i class="fa fa-edit text-md"></i>
+                                                <i class="fa fa-edit text-md my-auto"></i>
                                                 <span class="">ویرایش</span>
                                             </button>
                                         </td>
@@ -399,7 +399,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        {{-- </div> --}}
     </div>
 
 @endsection

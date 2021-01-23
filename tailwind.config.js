@@ -15,6 +15,12 @@ module.exports = {
         },
         minWidth: {
             '6': '6rem',
+            '1.5': '1.5rem',
+            '9': '9.875rem',
+            '12': '12rem',
+            '8': '8.1875rem',
+            '13': '13rem',
+            '5': '5.625rem',
         },
         extend: {
             colors: {
