@@ -415,7 +415,7 @@
             </a>
         </div>
         <div class="bg-gray-50">
-            <ul class="">
+            <ul class="list-none">
                 <li class="w-20 h-14 flex items-center border-r-4 border-indigo-700">
                     <a href="" class="mx-auto">
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-400 hover:text-indigo-700 " width="24"
@@ -481,7 +481,7 @@
                     </a>
                 </li>
             </ul>
-            <ul class="absolute bottom-2">
+            <ul class="absolute bottom-2 list-none">
                 <li class="w-20 h-14 flex items-center">
                     <a href="#" class="mx-auto">
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-400 hover:text-indigo-700 " width="24"
@@ -545,7 +545,7 @@
     {{-- right menu on mobile size --}}
     <div class="top-14 bg-white h-screen w-68 right-0 fixed z-20 hidden">
         <div class="w-14 absolute right-0 custom-menu-height">
-            <ul class="">
+            <ul class="list-none">
                 <li class="w-14 h-14 flex items-center">
                     <a href="#" class="mx-auto">
                         <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto text-gray-500" width="24" height="24"
@@ -610,7 +610,7 @@
                     </a>
                 </li>
             </ul>
-            <ul class="absolute bottom-0 right-0 w-full">
+            <ul class="absolute bottom-0 right-0 w-full list-none">
                 <li class="w-14 h-14 flex items-center">
                     <a href="#" class="mx-auto">
                         <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto text-gray-500" width="24" height="24"
@@ -659,7 +659,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <ul class="leading-8 hidden">
+                            <ul class="leading-8 hidden list-none">
                                 <li class="">
                                     <a href="#"
                                         class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
@@ -694,7 +694,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <ul class="leading-8 hidden">
+                            <ul class="leading-8 hidden list-none">
                                 <li class="">
                                     <a href="#"
                                         class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
@@ -729,7 +729,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <ul class="leading-8 hidden">
+                            <ul class="leading-8 hidden list-none">
                                 <li class="">
                                     <a href="#"
                                         class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
@@ -764,7 +764,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <ul class="leading-8 hidden">
+                            <ul class="leading-8 hidden list-none">
                                 <li class="">
                                     <a href="#"
                                         class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
@@ -799,7 +799,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <ul class="leading-8 hidden">
+                            <ul class="leading-8 hidden list-none">
                                 <li class="">
                                     <a href="#"
                                         class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
@@ -834,7 +834,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <ul class="leading-8 hidden">
+                            <ul class="leading-8 hidden list-none">
                                 <li class="">
                                     <a href="#"
                                         class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
@@ -869,7 +869,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <ul class="leading-8 hidden">
+                            <ul class="leading-8 hidden list-none">
                                 <li class="">
                                     <a href="#"
                                         class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
@@ -904,45 +904,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <ul class="leading-8 hidden">
-                                <li class="">
-                                    <a href="#"
-                                        class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
-                                        <i class="fa fa-user ml-4"></i> شخصی اول
-                                    </a>
-                                </li>
-                                <li class="">
-                                    <a href="#"
-                                        class="flex flex-row mr-8 text-sm items-center hover:text-gray-700 focus:text-indigo-500 text-gray-500">
-                                        <i class="fa fa-user ml-4"></i> شخصی دوم
-                                    </a>
-                                </li>
-                                <li class="">
-                                    <a href="#"
-                                        class="flex flex-row mr-8 text-sm items-center hover:text-gray-700 focus:text-indigo-500 text-gray-500">
-                                        <i class="fa fa-user ml-4"></i> شخصی سوم
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="my-2">
-                            <div class="w-4/5 h-px flex items-center bg-gray-400 mr-2"></div>
-                        </li>
-                        <li class="h-9">
-                            <div class="flex flex-row">
-                                <a href="#"
-                                    class="flex justify-between mr-4 text-gray-500 hover:text-gray-700 text-base font-medium w-4/5">
-                                    <span class=""> دارایی </span>
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="relative text-gray-500 transform rotate-180" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round"
-                                        class="feather feather-chevron-right">
-                                        <polyline points="9 18 15 12 9 6"></polyline>
-                                    </svg>
-                                </a>
-                            </div>
-                            <ul class="leading-8 hidden">
+                            <ul class="leading-8 hidden list-none">
                                 <li class="">
                                     <a href="#"
                                         class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
@@ -980,7 +942,45 @@
                                     </svg>
                                 </a>
                             </div>
-                            <ul class="leading-8 hidden">
+                            <ul class="leading-8 hidden list-none">
+                                <li class="">
+                                    <a href="#"
+                                        class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
+                                        <i class="fa fa-user ml-4"></i> شخصی اول
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#"
+                                        class="flex flex-row mr-8 text-sm items-center hover:text-gray-700 focus:text-indigo-500 text-gray-500">
+                                        <i class="fa fa-user ml-4"></i> شخصی دوم
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#"
+                                        class="flex flex-row mr-8 text-sm items-center hover:text-gray-700 focus:text-indigo-500 text-gray-500">
+                                        <i class="fa fa-user ml-4"></i> شخصی سوم
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="my-2">
+                            <div class="w-4/5 h-px flex items-center bg-gray-400 mr-2"></div>
+                        </li>
+                        <li class="h-9">
+                            <div class="flex flex-row">
+                                <a href="#"
+                                    class="flex justify-between mr-4 text-gray-500 hover:text-gray-700 text-base font-medium w-4/5">
+                                    <span class=""> دارایی </span>
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="relative text-gray-500 transform rotate-180" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="feather feather-chevron-right">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </a>
+                            </div>
+                            <ul class="leading-8 hidden list-none">
                                 <li class="">
                                     <a href="#"
                                         class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
@@ -1015,7 +1015,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <ul class="leading-8 hidden">
+                            <ul class="leading-8 hidden list-none">
                                 <li class="">
                                     <a href="#"
                                         class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
@@ -1050,7 +1050,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <ul class="leading-8 hidden">
+                            <ul class="leading-8 hidden list-none">
                                 <li class="">
                                     <a href="#"
                                         class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
@@ -1085,7 +1085,7 @@
                                     </svg>
                                 </a>
                             </div>
-                            <ul class="leading-8 hidden">
+                            <ul class="leading-8 hidden list-none">
                                 <li class="">
                                     <a href="#"
                                         class="flex flex-row mr-8 text-sm text-gray-500 hover:text-gray-700 focus:text-indigo-500 items-center">
@@ -1138,7 +1138,7 @@
                             </svg>
                         </a>
                     </div>
-                    <ul class="leading-8 hidden">
+                    <ul class="leading-8 hidden list-none">
                         <li class="">
                             <a href="#"
                                 class="flex flex-row-reverse mr-8 text-gray-500 hover:text-gray-900 focus:text-indigo-500 items-center">
@@ -1172,7 +1172,7 @@
                             </svg>
                         </a>
                     </div>
-                    <ul class="leading-8 hidden">
+                    <ul class="leading-8 hidden list-none">
                         <li class="">
                             <a href="#"
                                 class="flex flex-row-reverse mr-8 text-gray-500 hover:text-gray-900 focus:text-indigo-500 items-center">
@@ -1206,7 +1206,7 @@
                             </svg>
                         </a>
                     </div>
-                    <ul class="leading-8 hidden">
+                    <ul class="leading-8 hidden list-none">
                         <li class="">
                             <a href="#"
                                 class="flex flex-row-reverse mr-8 text-gray-500 hover:text-gray-900 focus:text-indigo-500 items-center">
@@ -1240,7 +1240,7 @@
                             </svg>
                         </a>
                     </div>
-                    <ul class="leading-8 hidden">
+                    <ul class="leading-8 hidden list-none">
                         <li class="">
                             <a href="#"
                                 class="flex flex-row-reverse mr-8 text-gray-500 hover:text-gray-900 focus:text-indigo-500 items-center">
@@ -1274,7 +1274,7 @@
                             </svg>
                         </a>
                     </div>
-                    <ul class="leading-8 hidden">
+                    <ul class="leading-8 hidden list-none">
                         <li class="">
                             <a href="#"
                                 class="flex flex-row-reverse mr-8 text-gray-500 hover:text-gray-900 focus:text-indigo-500 items-center">
@@ -1308,7 +1308,7 @@
                             </svg>
                         </a>
                     </div>
-                    <ul class="leading-8 hidden">
+                    <ul class="leading-8 hidden list-none">
                         <li class="">
                             <a href="#"
                                 class="flex flex-row-reverse mr-8 text-gray-500 hover:text-gray-900 focus:text-indigo-500 items-center">
@@ -1342,7 +1342,7 @@
                             </svg>
                         </a>
                     </div>
-                    <ul class="leading-8 hidden">
+                    <ul class="leading-8 hidden list-none">
                         <li class="">
                             <a href="#"
                                 class="flex flex-row-reverse mr-8 text-gray-500 hover:text-gray-900 focus:text-indigo-500 items-center">
@@ -1379,7 +1379,7 @@
                             </svg>
                         </a>
                     </div>
-                    <ul class="leading-8 hidden">
+                    <ul class="leading-8 hidden list-none">
                         <li class="">
                             <a href="#"
                                 class="flex flex-row-reverse mr-8 text-gray-500 hover:text-gray-900 focus:text-indigo-500 items-center">
@@ -1416,7 +1416,7 @@
                             </svg>
                         </a>
                     </div>
-                    <ul class="leading-8 hidden">
+                    <ul class="leading-8 hidden list-none">
                         <li class="">
                             <a href="#"
                                 class="flex flex-row-reverse mr-8 text-gray-500 hover:text-gray-900 focus:text-indigo-500 items-center">
@@ -1450,7 +1450,7 @@
                             </svg>
                         </a>
                     </div>
-                    <ul class="leading-8 hidden">
+                    <ul class="leading-8 hidden list-none">
                         <li class="">
                             <a href="#"
                                 class="flex flex-row-reverse mr-8 text-gray-500 hover:text-gray-900 focus:text-indigo-500 items-center">
@@ -1484,7 +1484,7 @@
                             </svg>
                         </a>
                     </div>
-                    <ul class="leading-8 hidden">
+                    <ul class="leading-8 hidden list-none">
                         <li class="">
                             <a href="#"
                                 class="flex flex-row-reverse mr-8 text-gray-500 hover:text-gray-900 focus:text-indigo-500 items-center">

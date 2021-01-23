@@ -6,6 +6,40 @@
 
 @section('emptylist')
     <div class="px-16 w-full mt-4">
+        <div class="flex justify-between">
+            <div class="">
+                <div class="flex m-2">
+                    <button class="rounded-r-none bg-white focus:outline-none flex justify-center px-4 py-2 rounded text-md hover:bg-purple-100 cursor-pointer 
+                        border duration-200 ease-in-out transition">
+                        <div class="flex leading-5 font-normal">
+                            <i class="fa fa-check"></i>&nbsp;
+                            <span class="md:block xs:hidden"> ارتقاع </span>
+                        </div>
+                    </button>
+                    <button class="trounded-l-none rounded-r-none bg-white border-l-0 border-r-0 focus:outline-none text-md hover:bg-purple-100 flex justify-center px-4 py-2 rounded cursor-pointer 
+                    border duration-200 ease-in-out transition">
+                        <div class="flex leading-5 font-normal">
+                            <i class="fa fa-edit"></i>&nbsp;
+                            <span class="md:block xs:hidden"> ویرایش </span> 
+                        </div>
+                    </button>
+                    <button class="rounded-l-none focus:outline-none bg-white flex justify-center px-4 py-2 rounded cursor-pointer hover:bg-purple-100
+                        border duration-200 ease-in-out transition">
+                        <div class="flex leading-5 font-normal">
+                            <i class="fa fa-arrow-right"></i>&nbsp;
+                            <span class="md:block xs:hidden"> انتقال </span> 
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="my-auto">
+                <button
+                    class="bg-purple-700 hover:bg-purple-800 transition-all text-white px-4 py-2 rounded-md xs:text-xs md:text-sm focus:outline-none flex">
+                    <i class="fa fa-plus"></i> &nbsp;
+                    افزودن کاربر
+                </button>
+            </div>
+        </div>
         <div class="mt-4">
             <div class="flex flex-col">
                 <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -114,33 +148,33 @@
                             </div>
                         </div>
                         {{-- pagination --}}
-                        <div class="flex rtl justify-between pb-8 mt-4">
-                            <div class="text-md text-gray-600">
-                                نمایش
-                                <span class=""> 1 </span>
-                                تا
-                                <span class=""> 10 </span>
-                                از
-                                <span class=""> 16 </span>
-                                محصول
-                            </div>
-                            <div class="">
-                                <ul class="flex gap-2">
-                                    <li class="bg-purple-700 text-white rounded-full">
-                                        <i class="fa fa-angle-right px-2 py-1"></i>
-                                    </li>
-                                    <li class="bg-purple-700 text-white rounded-full">
-                                        <a href="#" class="px-2 py-1">1</a>
-                                    </li>
-                                    <li class="bg-purple-700 text-white rounded-full">
-                                        <a href="#" class="px-2 py-1">2</a>
-                                    </li>
-                                    <li class="bg-purple-700 text-white rounded-full">
-                                        <i class="fa fa-angle-left px-2 py-1"></i>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                <div class="flex rtl justify-between pb-8 mt-4">
+                    <div class="text-md text-gray-600">
+                        نمایش
+                        <span class=""> 1 </span>
+                        تا
+                        <span class=""> 10 </span>
+                        از
+                        <span class=""> 16 </span>
+                        محصول
+                    </div>
+                    <div class="">
+                        <ul class="flex gap-2 list-none">
+                            <li class="bg-purple-700 text-white rounded-full flex w-9 h-9">
+                                <i class="fa fa-angle-right mx-auto my-auto"></i>
+                            </li>
+                            <li class="bg-purple-700 text-white rounded-full flex w-9 h-9">
+                                <a href="#" class="mx-auto my-auto">1</a>
+                            </li>
+                            <li class="bg-purple-700 text-white rounded-full flex w-9 h-9">
+                                <a href="#" class="mx-auto my-auto">2</a>
+                            </li>
+                            <li class="bg-purple-700 text-white rounded-full flex w-9 h-9">
+                                <i class="fa fa-angle-left mx-auto my-auto"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                     </div>
                 </div>
             </div>

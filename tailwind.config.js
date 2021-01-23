@@ -26,7 +26,9 @@ module.exports = {
                 'price': '8.1875rem',
                 'empty': '5.625rem',
                 '70': '4.375rem',
-                '68': '17.5rem'
+                '68': '17.5rem',
+                '90': '5.678125rem',
+                '30': '7.875rem',
             },
             height: {
                 sm: '65px',

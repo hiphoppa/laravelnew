@@ -179,9 +179,9 @@
                                         </td>
                                         <td class="px-2 w-6 py-3 relative text-center">
                                             <button
-                                                class="px-2 py-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
+                                                class="px-2 py-1 gap-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
                                                 <i class="fa fa-edit text-md"></i>
-                                                ویرایش
+                                                <span class="">ویرایش</span>
                                             </button>
                                         </td>
                                     </tr>
@@ -224,9 +224,9 @@
                                         </td>
                                         <td class="px-2 w-6 py-3 relative text-center">
                                             <button
-                                                class="px-2 py-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
+                                                class="px-2 py-1 gap-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
                                                 <i class="fa fa-edit text-md"></i>
-                                                ویرایش
+                                                <span class="">ویرایش</span>
                                             </button>
                                         </td>
                                     </tr>
@@ -269,9 +269,9 @@
                                         </td>
                                         <td class="px-2 w-6 py-3 relative text-center">
                                             <button
-                                                class="px-2 py-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
+                                                class="px-2 py-1 gap-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
                                                 <i class="fa fa-edit text-md"></i>
-                                                ویرایش
+                                                <span class="">ویرایش</span>
                                             </button>
                                         </td>
                                     </tr>
@@ -314,9 +314,9 @@
                                         </td>
                                         <td class="px-2 w-6 py-3 relative text-center">
                                             <button
-                                                class="px-2 py-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
+                                                class="px-2 py-1 gap-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
                                                 <i class="fa fa-edit text-md"></i>
-                                                ویرایش
+                                                <span class="">ویرایش</span>
                                             </button>
                                         </td>
                                     </tr>
@@ -357,11 +357,11 @@
                                                 مبل راحتی
                                             </span>
                                         </td>
-                                        <td class="px-2 w-6 py-3 relative text-center">
+                                        <td class="px-1 w-6 py-3 relative text-center">
                                             <button
-                                                class="px-2 py-1 rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
-                                                <i class="fa fa-edit text-md"></i>
-                                                ویرایش
+                                                class="px-1 gap-1 py-1 w-full rounded flex focus:outline-none hover:bg-gray-100 border border-gray-300 text-sm">
+                                                <i class="fa fa-edit text-md my-auto"></i> &nbsp;
+                                                <span class="">ویرایش</span>
                                             </button>
                                         </td>
                                     </tr>
@@ -382,18 +382,18 @@
                         محصول
                     </div>
                     <div class="">
-                        <ul class="flex gap-2">
-                            <li class="bg-purple-700 text-white rounded-full">
-                                <i class="fa fa-angle-right px-3 py-1"></i>
+                        <ul class="flex gap-2 list-none">
+                            <li class="bg-purple-700 text-white rounded-full flex w-9 h-9">
+                                <i class="fa fa-angle-right mx-auto my-auto"></i>
                             </li>
-                            <li class="bg-purple-700 text-white rounded-full">
-                                <a href="#" class="px-3 py-1 flex">1</a>
+                            <li class="bg-purple-700 text-white rounded-full flex w-9 h-9">
+                                <a href="#" class="mx-auto my-auto">1</a>
                             </li>
-                            <li class="bg-purple-700 text-white rounded-full">
-                                <a href="#" class="px-3 py-1 flex">2</a>
+                            <li class="bg-purple-700 text-white rounded-full flex w-9 h-9">
+                                <a href="#" class="mx-auto my-auto">2</a>
                             </li>
-                            <li class="bg-purple-700 text-white rounded-full">
-                                <i class="fa fa-angle-left px-3 py-1"></i>
+                            <li class="bg-purple-700 text-white rounded-full flex w-9 h-9">
+                                <i class="fa fa-angle-left mx-auto my-auto"></i>
                             </li>
                         </ul>
                     </div>
