@@ -2,6 +2,9 @@ module.exports = {
     purge: [],
     darkMode: 'class', // or 'media' or 'class'
     theme: {
+        padding: {
+            50: '3.125rem',
+        },
         screens: {
             'xs': '1px',
             'sm': '640px',
@@ -12,6 +15,7 @@ module.exports = {
         },
         maxWidth: {
             'empty': '17.5rem',
+            '25': '25rem',
         },
         minWidth: {
             '6': '6rem',
@@ -35,10 +39,13 @@ module.exports = {
                 '68': '17.5rem',
                 '90': '5.678125rem',
                 '30': '7.875rem',
+                '13': '3.25rem',
+
             },
             height: {
                 sm: '65px',
                 70: '4.375rem',
+                43: '43rem',
             },
         },
 

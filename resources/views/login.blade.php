@@ -408,10 +408,49 @@
 
 <body>
     {{-- hedader of login page --}}
-    <div class="">
-        <div class=""></div>
-        <div class=""></div>
-        <div class=""></div>
+    <div class="h-screen">
+
+        <div class="grid grid-cols-6 mt-4 h-20">
+            <div class="col-start-1 col-end-2 flex items-center">
+                <span
+                    class="relative inline-block items-center transition-all cursor-pointer bg-transparent hover:bg-white rounded-full w-8 h-8 mr-6">
+                    {{-- <a href="#" class="">
+                        <img src="./img/8.jpg" width="16" height="16" alt="flag" class="mx-auto mt-2" />
+                    </a> --}}
+                    {{-- <i
+                        class="fa fa-sun-o bg-yellow-300 text-yellow-500 rounded-full"></i>
+                    --}}
+                    {{-- <div class="relative"> --}}
+                        <span class="custom-dark">
+
+                        </span>
+                        {{--
+                    </div> --}}
+                </span>
+            </div>
+            <div class="col-start-2 col-end-6  text-center">
+                <img src="./img/logo.svg" alt="logo" class="w-13 mx-auto">
+            </div>
+            <div class="col-start-6 col-span-7"></div>
+        </div>
+        <div class="w-full h-43 relative">
+            <div class="w-full max-w-25 mx-auto h-32 mt-10">
+                <div class="">
+                    <h2 class="text-3xl text-center">
+                        خوش آمدید
+                    </h2>
+                    <p class="text-base text-center text-gray-600 mb-2">
+                        لطفا به حساب خود وارد شوید
+                    </p>
+                    <a href="#" class="text-sm text-center block">
+                        من هنوز حساب ندارم
+                    </a>
+                </div>
+                <div class="bg-white p-50">
+                    <div class="bg-blue-500">hello</div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
