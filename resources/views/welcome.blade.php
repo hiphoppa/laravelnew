@@ -1512,7 +1512,7 @@
     <div class="md:mr-20 bg-gray-light h-full">
         <div class="px-8 flex flex-row-reverse">
             <div class="md:px-16 xs:px-4 w-full mt-14 md:mt-0">
-                <div class="header flex justify-between flex-row-reverse mx-20 my-4">
+                <div class="header flex justify-between flex-row-reverse mx-auto w-11/12 my-4">
                     <div class="">
                         <span
                             class="relative inline-block ml-4 items-center transition-all cursor-pointer bg-transparent hover:bg-white rounded-full w-8 h-8">

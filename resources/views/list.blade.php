@@ -2,7 +2,7 @@
 
 @section('list')
     <div class="px-16 w-full mt-4">
-        <div class="flex justify-between mx-20">
+        <div class="flex justify-between mx-auto w-11/12">
             <div class="">
                 <div class="flex">
                     <button class="rounded-r-none bg-white focus:outline-none flex justify-center pr-4 py-2 rounded text-md hover:bg-purple-100 cursor-pointer 
@@ -28,7 +28,7 @@
                     </button>
                 </div>
             </div>
-            <div class="my-auto">
+            <div class="">
                 <button
                     class="bg-purple-700 hover:bg-purple-800 transition-all text-white px-4 py-2 rounded-md xs:text-xs md:text-sm focus:outline-none flex">
                     <i class="fa fa-plus"></i> &nbsp;
@@ -40,12 +40,12 @@
         <div class="flex flex-col">
             <div class="my-2 overflow-x-auto">
                 <div class="py-2 align-middle inline-block w-full">
-                    <div class="overflow-hidden">
+                    <div class="overflow-hidden w-11/12 mx-auto">
                         <table class="w-full divide-y rtl mb-4 rounded-md overflow-hidden">
                             <thead class="bg-white">
                                 <tr class="">
                                     <th scope="col"
-                                        class="px-2 min-w-1.5 py-3 border border-gray-200 text-left text-xs font-medium text-gray-500 relative">
+                                        class="px-2 min-w-1.5 w-6 py-3 border border-gray-200 text-left text-xs font-medium text-gray-500 relative">
                                         <span
                                             class="w-6 h-6 bg-white flex rounded-full border border-gray-300 cursor-pointer"></span>
                                     </th>
@@ -63,7 +63,7 @@
                                         </div>
                                     </th>
                                     <th scope="col"
-                                        class="px-6 py-3 border min-w-12  border-gray-200 text-sm md:text-md font-bold text-gray-800">
+                                        class="px-6 py-3 border min-w-12 w-48 border-gray-200 text-sm md:text-md font-bold text-gray-800">
                                         <div class="flex justify-between">
                                             <span class="">کد کالا</span>
                                             <span class="">
@@ -72,7 +72,7 @@
                                         </div>
                                     </th>
                                     <th scope="col"
-                                        class="px-2 py-3 border min-w-8 border-gray-200 text-sm md:text-md font-bold text-gray-800">
+                                        class="px-2 py-3 border min-w-8 w-price border-gray-200 text-sm md:text-md font-bold text-gray-800">
                                         <div class="flex justify-between">
                                             <span class="">قیمت</span>
                                             <span class="">
@@ -81,7 +81,7 @@
                                         </div>
                                     </th>
                                     <th scope="col"
-                                        class="px-1 py-3 min-w-6 text-center border border-gray-200 text-sm md:text-md font-bold text-gray-800">
+                                        class="px-1 py-3 min-w-6 w-24 text-center border border-gray-200 text-sm md:text-md font-bold text-gray-800">
                                         موجودی
                                     </th>
                                     <th scope="col"
@@ -89,7 +89,7 @@
                                         دسته بندی
                                     </th>
                                     <th scope="col"
-                                        class="px-6 min-w-5 py-3 text-center border border-gray-200 text-sm md:text-md font-bold text-gray-800">
+                                        class="px-6 min-w-5 w-empty py-3 text-center border border-gray-200 text-sm md:text-md font-bold text-gray-800">
                                         {{-- ویرایش --}}
                                     </th>
                                 </tr>
