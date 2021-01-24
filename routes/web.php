@@ -28,3 +28,9 @@ Route::get('/emptylist', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/loginstep1', function () {
+    return view('loginstep1');
+});
+Route::get('/loginstep2', function () {
+    return view('loginstep2');
+});
