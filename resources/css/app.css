@@ -6,6 +6,10 @@
     direction: rtl;
 }
 
+.ltr {
+    direction: ltr;
+}
+
 .custom-menu-height {
     height: calc(100% - 60px);
 }

@@ -410,7 +410,7 @@
     {{-- hedader of login page --}}
     <div class="h-screen">
 
-        <div class="grid grid-cols-6 mt-4 h-20">
+        <div class="grid grid-cols-6 h-20">
             <div class="col-start-1 col-end-2 flex items-center">
                 <span
                     class="relative inline-block items-center transition-all cursor-pointer bg-transparent hover:bg-white rounded-full w-8 h-8 mr-6">
@@ -428,7 +428,7 @@
                     </div> --}}
                 </span>
             </div>
-            <div class="col-start-2 col-end-6  text-center">
+            <div class="col-start-2 col-end-6  text-center my-auto">
                 <img src="./img/logo.svg" alt="logo" class="w-13 mx-auto">
             </div>
             <div class="col-start-6 col-span-7"></div>
@@ -446,8 +446,26 @@
                         من هنوز حساب ندارم
                     </a>
                 </div>
-                <div class="bg-white p-50">
-                    <div class="bg-blue-500">hello</div>
+                <div class="bg-white p-50 rounded-md">
+                    <div class="">
+                        <form action="">
+                            <div class="relative rounded-md mt-2 border border-gray-200">
+                                <input type="text" class="h-10 ltr inline-block w-11/12 outline-none focus:outline-none bg-transparent" placeholder="password">
+                                <span class="inline-block">
+                                    <i class="fa fa-user-o"></i>
+                                </span>
+                            </div>
+                            <div class="relative rounded-md mt-2 border border-gray-200">
+                                <input type="text" class="h-10 ltr inline-block w-11/12 outline-none focus:outline-none bg-transparent" placeholder="password">
+                                <span class="inline-block">
+                                    <i class="fa fa-lock"></i>
+                                </span>
+                            </div>
+                            <div class="relative rounded-md mt-2 border border-gray-200 bg-red-300">
+                                <button type="submit" class="block h-10 w-full outline-none focus:outline-none">ورود</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

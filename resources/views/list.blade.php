@@ -2,26 +2,26 @@
 
 @section('list')
     <div class="px-16 w-full mt-4">
-        <div class="flex justify-between">
+        <div class="flex justify-between mx-20">
             <div class="">
-                <div class="flex m-2">
-                    <button class="rounded-r-none bg-white focus:outline-none flex justify-center px-4 py-2 rounded text-md hover:bg-purple-100 cursor-pointer 
+                <div class="flex">
+                    <button class="rounded-r-none bg-white focus:outline-none flex justify-center pr-4 py-2 rounded text-md hover:bg-purple-100 cursor-pointer 
                             border duration-200 ease-in-out transition">
-                        <div class="flex leading-5 font-normal">
+                        <div class=" font-normal">
                             <i class="fa fa-check"></i>&nbsp;
                             <span class="md:block xs:hidden"> ارتقاع </span>
                         </div>
                     </button>
                     <button class="trounded-l-none rounded-r-none bg-white border-l-0 border-r-0 focus:outline-none text-md hover:bg-purple-100 flex justify-center px-4 py-2 rounded cursor-pointer 
                         border duration-200 ease-in-out transition">
-                        <div class="flex leading-5 font-normal">
+                        <div class="flex font-normal">
                             <i class="fa fa-edit"></i>&nbsp;
                             <span class="md:block xs:hidden"> ویرایش </span>
                         </div>
                     </button>
                     <button class="rounded-l-none focus:outline-none bg-white flex justify-center px-4 py-2 rounded cursor-pointer hover:bg-purple-100
                             border duration-200 ease-in-out transition">
-                        <div class="flex leading-5 font-normal">
+                        <div class="flex font-normal">
                             <i class="fa fa-arrow-right"></i>&nbsp;
                             <span class="md:block xs:hidden"> انتقال </span>
                         </div>
