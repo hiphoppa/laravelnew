@@ -1508,9 +1508,9 @@
             </ul>
         </div>
     </div>
-    @yield('navbar')
     {{-- content --}}
     <div class="md:mr-80 bg-gray-light h-full">
+        @include('navbar')
         
         @yield('content')
         @yield('list')
