@@ -1,10 +1,11 @@
+const colors = require("tailwindcss/colors")
 module.exports = {
     purge: [],
     darkMode: 'class', // or 'media' or 'class'
     theme: {
-        padding: {
-            50: '3.125rem',
-        },
+        // padding: {
+        //     50: '3.125rem',
+        // },
         screens: {
             'xs': '1px',
             'sm': '640px',
@@ -28,7 +29,23 @@ module.exports = {
         },
         extend: {
             colors: {
-                'gray-light': '#f2f2f2'
+                'gray-light': '#f2f2f2',
+                'lightRed': colors.warmGray,
+                'blueGray': colors.blueGray,
+                'coolGray': colors.coolGray,
+                'trueGray': colors.trueGray,
+                'warmGray': colors.warmGray,
+                'orange': colors.orange,
+                'amber': colors.amber,
+                'lime': colors.lime,
+                'emerald': colors.emerald,
+                'teal': colors.teal,
+                'cyan': colors.cyan,
+                'lightBlue': colors.lightBlue,
+                'violet': colors.violet,
+                'fuchsia': colors.fuchsia,
+                'pink': colors.pink,
+                'rose': colors.rose,
             },
             width: {
                 '9/10': '90%',
