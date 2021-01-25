@@ -260,6 +260,48 @@
                 </div>
             </button>
         </div>
+        <div class="mt-4">
+            <label class="inline-flex items-center gap-4">
+                <input type="radio" class="form-radio hover:shadow-xl w-5 h-5 border border-gray-300" name="accountType"
+                    value="personal">
+                <span class="ml-2">Personal</span>
+            </label>
+        </div>
+        <div class="mt-4 w-28">
+            <div class="checkbox text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox" name="" value="" />
+                <label for="checkbox">
+                    <span> گزینه 1 </span>
+                </label>
+            </div>
+            <div class="rounded-checkbox text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox2" name="" value="">
+                <label for="checkbox2"><span>Checkbox</span></label>
+            </div>
+            <div class="checkbox-primary text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox3" name="" value="">
+                <label for="checkbox3">
+                    <span>Checkbox</span>
+                </label>
+            </div>
+            <div class="square-checkbox-primary text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox4" name="" value="">
+                <label for="checkbox4">
+                    <span>Checkbox</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="absolute mt-4 bg-red-400 w-32 h-32 first:w-full first:h-full">
+            <div class="absolute top-0 left-0 bg-purple-700"></div>
+            <div class="text-center">
+                <p>hello</p>
+                <p>hello</p>
+                <p>hello</p>
+                <p>hello</p>
+            </div>
+        </div>
+        <div class="custom-tags"></div>
 
     </div>
 
