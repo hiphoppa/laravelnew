@@ -268,41 +268,37 @@
             </label>
         </div>
         <div class="mt-4 w-28">
-            <div class="checkbox text-gray-400 text-sm">
-                <input type="checkbox" id="checkbox" name="" value="" />
-                <label for="checkbox">
-                    <span> گزینه 1 </span>
+            <div class="checkbox w-full relative block text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox" name="" value="" class="w-auto opacity-5 absolute left-0" />
+                <label for="checkbox" class="relative block pl-10 mb-0 font-normal cursor-pointer">
+                    <span class="absolute top-2/4"> گزینه 1 </span>
                 </label>
             </div>
-            <div class="rounded-checkbox text-gray-400 text-sm">
-                <input type="checkbox" id="checkbox2" name="" value="">
-                <label for="checkbox2"><span>Checkbox</span></label>
-            </div>
-            <div class="checkbox-primary text-gray-400 text-sm">
-                <input type="checkbox" id="checkbox3" name="" value="">
-                <label for="checkbox3">
+            <div class="rounded-checkbox w-full relative block text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox2" name="" value="" class="w-auto opacity-5 absolute left-0" />
+                <label for="checkbox2" class="relative block pl-10 mb-0 font-normal cursor-pointer">
                     <span>Checkbox</span>
                 </label>
             </div>
-            <div class="square-checkbox-primary text-gray-400 text-sm">
-                <input type="checkbox" id="checkbox4" name="" value="">
-                <label for="checkbox4">
+            <div class="checkbox-primary w-full relative block text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox3" name="" value="" class="w-auto opacity-5 absolute left-0" />
+                <label for="checkbox3" class="relative block pl-10 mb-0 font-normal cursor-pointer">
+                    <span>Checkbox</span>
+                </label>
+            </div>
+            <div class="square-checkbox-primary w-full relative block text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox4" name="" value="" class="w-auto opacity-5 absolute left-0" />
+                <label for="checkbox4" class="relative block pl-10 mb-0 font-normal cursor-pointer">
+                    <span>Checkbox</span>
+                </label>
+            </div>
+            <div class="rounded-checkbox-primary w-full relative block text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox5" name="" value="" class="w-auto opacity-5 absolute left-0" />
+                <label for="checkbox5" class="relative block pl-10 mb-0 font-normal cursor-pointer">
                     <span>Checkbox</span>
                 </label>
             </div>
         </div>
-
-        <div class="absolute mt-4 bg-red-400 w-32 h-32 first:w-full first:h-full">
-            <div class="absolute top-0 left-0 bg-purple-700"></div>
-            <div class="text-center">
-                <p>hello</p>
-                <p>hello</p>
-                <p>hello</p>
-                <p>hello</p>
-            </div>
-        </div>
-        <div class="custom-tags"></div>
-
     </div>
 
 </body>
