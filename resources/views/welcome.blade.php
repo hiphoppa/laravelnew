@@ -301,7 +301,23 @@
                 <p>hello</p>
             </div>
         </div>
-        <div class="custom-tags"></div>
+        <div class="custom-tags mt-4">
+            <div class="flex justify-between items-center">
+  
+                <!-- Title -->
+                <h2>Toggle me</h2>
+                
+                <!-- Switch Container -->
+                <div class="w-16 h-10 flex items-center bg-gray-300 rounded-full p-1">
+                  
+                  <!-- Switch -->
+                  <div class="bg-white w-8 h-8 rounded-full shadow-md"></div>
+                
+                </div>
+                <!-- Switch Container End -->
+              
+              </div>
+        </div>
 
     </div>
 
