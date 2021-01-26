@@ -268,59 +268,105 @@
             </label>
         </div>
         <div class="mt-4 w-28">
-            <div class="checkbox text-gray-400 text-sm">
-                <input type="checkbox" id="checkbox" name="" value="" />
-                <label for="checkbox">
-                    <span> گزینه 1 </span>
+            <div class="checkbox w-full relative block text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox" name="" value="" class="w-auto opacity-5 absolute left-0" />
+                <label for="checkbox" class="relative block pl-10 mb-0 font-normal cursor-pointer">
+                    <span class="absolute top-2/4"> گزینه 1 </span>
                 </label>
             </div>
-            <div class="rounded-checkbox text-gray-400 text-sm">
-                <input type="checkbox" id="checkbox2" name="" value="">
-                <label for="checkbox2"><span>Checkbox</span></label>
-            </div>
-            <div class="checkbox-primary text-gray-400 text-sm">
-                <input type="checkbox" id="checkbox3" name="" value="">
-                <label for="checkbox3">
+            <div class="rounded-checkbox w-full relative block text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox2" name="" value="" class="w-auto opacity-5 absolute left-0" />
+                <label for="checkbox2" class="relative block pl-10 mb-0 font-normal cursor-pointer">
                     <span>Checkbox</span>
                 </label>
             </div>
-            <div class="square-checkbox-primary text-gray-400 text-sm">
-                <input type="checkbox" id="checkbox4" name="" value="">
-                <label for="checkbox4">
+            <div class="checkbox-primary w-full relative block text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox3" name="" value="" class="w-auto opacity-5 absolute left-0" />
+                <label for="checkbox3" class="relative block pl-10 mb-0 font-normal cursor-pointer">
                     <span>Checkbox</span>
                 </label>
             </div>
-        </div>
-
-        <div class="absolute mt-4 bg-red-400 w-32 h-32 first:w-full first:h-full">
-            <div class="absolute top-0 left-0 bg-purple-700"></div>
-            <div class="text-center">
-                <p>hello</p>
-                <p>hello</p>
-                <p>hello</p>
-                <p>hello</p>
+            <div class="square-checkbox-primary w-full relative block text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox4" name="" value="" class="w-auto opacity-5 absolute left-0" />
+                <label for="checkbox4" class="relative block pl-10 mb-0 font-normal cursor-pointer">
+                    <span>Checkbox</span>
+                </label>
+            </div>
+            <div class="rounded-checkbox-primary w-full relative block text-gray-400 text-sm">
+                <input type="checkbox" id="checkbox5" name="" value="" class="w-auto opacity-5 absolute left-0" />
+                <label for="checkbox5" class="relative block pl-10 mb-0 font-normal cursor-pointer">
+                    <span>Checkbox</span>
+                </label>
             </div>
         </div>
         <div class="custom-tags mt-4">
-            <div class="flex justify-between items-center">
-  
-                <!-- Title -->
-                <h2>Toggle me</h2>
-                
-                <!-- Switch Container -->
-                <div class="w-16 h-10 flex items-center bg-gray-300 rounded-full p-1">
-                  
-                  <!-- Switch -->
-                  <div class="bg-white w-8 h-8 rounded-full shadow-md"></div>
-                
+            <div class="flex items-center">
+                <span class="text-gray-400 text-md ml-4">ذخیره</span>
+                <div class="control inline-block w-12">
+                    <label class="form-switch is-primary relative inline-block cursor-pointer">
+                        <input type="checkbox" class="is-switch absolute opacity-0 cursor-default" checked="">
+                        <i class="relative inline-block rounded-full transition-all bg-gray-200"></i>
+                    </label>
                 </div>
-                <!-- Switch Container End -->
-              
-              </div>
+            </div>
         </div>
-
+        <div class="mt-8">
+            radio button
+            <div class="relative">
+                <label for="" class="relative cursor-pointer p-4 inline-block">
+                    input
+                </label>
+                <label for="" class=""></label>
+            </div>
+        </div>
+        <div class="my-8">
+            {{-- input --}}
+            <div class="select py-2">
+                <label class="text-gray-500 text-sm"> مدل کاری </label>
+                <div class="relative">
+                    <div class="z-10 w-32 absolute border rounded-md border-gray-300">
+                        <div class="relative flex items-center rounded-md pr-2.5 pl-10 h-9 w-full cursor-pointer bg-white">
+                            <span class="text-sm relative top-0"> گزینه </span>
+                        </div>
+                        <div class="absolute top-0 left-0 w-9 h-9 flex justify-center items-center transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </div>
+                        <div class="absolute top-10 right-0 w-full overflow-y-auto bg-white border border-gray-400 rounded-md transition-all opacity-100 change">
+                            <div class="relative h-full w-full bg-whiite">
+                                <div class="relative flex bg-white h-10 hover:bg-gray-100">
+                                    <input type="radio" name="type" class="absolute top-0 right-0 h-full w-full opacity-0 cursor-pointer" />
+                                    <div class="p-3 w-full flex items-center">
+                                        <span class="block font-medium text-gray-700 text-xs mr-4">
+                                            گزینه اول
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="relative flex bg-white h-10 hover:bg-gray-100">
+                                    <input type="radio" name="type" class="absolute top-0 right-0 h-full w-full opacity-0 cursor-pointer" />
+                                    <div class="p-3 w-full flex items-center">
+                                        <span class="block font-medium text-gray-700 text-xs mr-4">
+                                            گزینه دوم
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="relative flex bg-white h-10 hover:bg-gray-100">
+                                    <input type="radio" name="type" class="absolute top-0 right-0 h-full w-full opacity-0 cursor-pointer" />
+                                    <div class="p-3 w-full flex items-center">
+                                        <span class="block font-medium text-gray-700 text-xs mr-4">
+                                            گزینه سوم
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
 </body>
 
 </html>
