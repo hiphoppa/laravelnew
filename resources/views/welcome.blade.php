@@ -217,7 +217,7 @@
 
 
             <button
-                class="rounded-full custom-shadow-save transition-all duration-300 text-sm text-white bg-emerald-500 px-5 py-2 outline-none focus:outline-none mx-0.5"
+                class="rounded-full custom-shadow-save transition-all duration-300 text-sm text-white bg-emerald-500 hover:bg-emerald-600 px-5 py-2 outline-none focus:outline-none mx-0.5"
                 disabled>
                 <i class="fa fa-check"></i>
                 ذخیره تغییرات

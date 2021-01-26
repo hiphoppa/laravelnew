@@ -127,17 +127,32 @@
         </div>
     </div>
     {{-- checkbox --}}
-    <div class="relative mt-32">
-        <label class="radio relative cursor-pointer p-2">
+    <div class="relative mt-32 w-64">
+        <span class="block text-sm text-gray-500 mr-4"> برام ایمیل کن </span>
+        <label class="radio text-md text-gray-500 relative inline-block w-5/12 cursor-pointer p-2">
             <input type="radio" name="notification_selection" checked="" class="absolute cursor-pointer opacity-0 transition-all" />
             <span></span>
-            Yes
+            بله
         </label>
-        <label class="radio is-outlined is-primary relative cursor-pointer p-2">
+        <label class="radio text-md text-gray-500 inline-block w-5/12 is-outlined is-primary relative cursor-pointer p-2">
             <input type="radio" name="notification_selection" class="absolute cursor-pointer opacity-0 transition-all" />
             <span></span>
-            No
+            نه
         </label>
+    </div>
+    {{-- button --}}
+    <button class="rounded-md transition-all duration-300 text-sm text-white bg-purple-700 hover:bg-purple-800 hover:shadow-2xl px-5 py-2 outline-none focus:outline-none mx-0.5">
+        ذخیره تغییرات    
+    </button>
+    <button class="rounded-md transition-all duration-300 text-sm text-gray-900 bg-gray-100 hover:bg-gray-200 px-5 py-2 outline-none focus:outline-none mx-0.5">
+        برگشت
+    <i class="fa fa-arrow-left my-auto"></i>
+    </button>
+    {{-- textarea --}}
+    <div class="mt-2">
+        <textarea name="" id="" cols="50" rows="5" class="outline-none focus:outline-none">
+            متن زیاد
+        </textarea>
     </div>
 </body>
 

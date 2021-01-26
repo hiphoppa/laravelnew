@@ -22,3 +22,6 @@ Route::get('/laravel', function () {
 Route::get('/form', function () {
     return view('form');
 });
+Route::get('/d', function () {
+    return view('laraveld');
+});
