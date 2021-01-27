@@ -38,7 +38,7 @@
                             </svg>
                         </div>
                         <div
-                            class="absolute top-10 right-0 w-full overflow-y-auto bg-white border border-gray-400 rounded-md transition-all opacity-100 change">
+                            class="absolute top-10 right-0 w-full overflow-y-auto bg-white border border-gray-400 rounded-md transition-all opacity-100 custom-select">
                             <div class="relative h-full w-full bg-whiite">
                                 <div class="relative flex bg-white h-10 hover:bg-gray-100">
                                     <input type="radio" name="type"
@@ -130,13 +130,13 @@
     <div class="relative mt-32 w-64">
         <span class="block text-sm text-gray-500 mr-4"> برام ایمیل کن </span>
         <label class="radio text-md text-gray-500 relative inline-block w-5/12 cursor-pointer p-2">
-            <input type="radio" name="notification_selection" checked="" class="absolute cursor-pointer opacity-0 transition-all" />
-            <span></span>
+            <input type="radio" name="notification_selection" checked="" class="absolute cursor-pointer opacity-0 transition-all rounded-full inline-block p-0 bg-white border border-gray-300 w-6 h-6 my-0 mr-2 ml-0 -top-px" />
+            <span class="rounded-full inline-block p-0 bg-white border border-gray-300 w-6 h-6 my-0 mr-2 ml-0 -top-px"></span>
             بله
         </label>
         <label class="radio text-md text-gray-500 inline-block w-5/12 is-outlined is-primary relative cursor-pointer p-2">
-            <input type="radio" name="notification_selection" class="absolute cursor-pointer opacity-0 transition-all" />
-            <span></span>
+            <input type="radio" name="notification_selection" class="absolute cursor-pointer opacity-0 transition-all rounded-full inline-block p-0 bg-white border border-gray-300 w-6 h-6 my-0 mr-2 ml-0 -top-px" />
+            <span class="rounded-full inline-block p-0 bg-white border border-gray-300 w-6 h-6 my-0 mr-2 ml-0 -top-px"></span>
             نه
         </label>
     </div>
