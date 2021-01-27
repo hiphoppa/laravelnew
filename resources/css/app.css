@@ -370,3 +370,8 @@
     .radio.is-outlined.is-primary input+span:after {
         color: #671cc9;
     }
+    /* flex-table */
+    
+    #demo:checked+.items {
+        display: block;
+    }

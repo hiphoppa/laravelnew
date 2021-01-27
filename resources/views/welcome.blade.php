@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <div class="buttons w-full h-screen bg-white">
+    <div class="buttons w-full h-full bg-white">
         <div class="h-buttons pt-2">
             <button
                 class="rounded-md border hover:border-gray-400 transition-all duration-300 text-sm text-gray-700 bg-white px-5 py-2 outline-none focus:outline-none mx-0.5">
@@ -325,18 +325,23 @@
                 <label class="text-gray-500 text-sm"> مدل کاری </label>
                 <div class="relative">
                     <div class="z-10 w-32 absolute border rounded-md border-gray-300">
-                        <div class="relative flex items-center rounded-md pr-2.5 pl-10 h-9 w-full cursor-pointer bg-white">
+                        <div
+                            class="relative flex items-center rounded-md pr-2.5 pl-10 h-9 w-full cursor-pointer bg-white">
                             <span class="text-sm relative top-0"> گزینه </span>
                         </div>
                         <div class="absolute top-0 left-0 w-9 h-9 flex justify-center items-center transition-all">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-chevron-down">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
                         </div>
-                        <div class="absolute top-10 right-0 w-full overflow-y-auto bg-white border border-gray-400 rounded-md transition-all opacity-100 change">
+                        <div
+                            class="absolute top-10 right-0 w-full overflow-y-auto bg-white border border-gray-400 rounded-md transition-all opacity-100 change">
                             <div class="relative h-full w-full bg-whiite">
                                 <div class="relative flex bg-white h-10 hover:bg-gray-100">
-                                    <input type="radio" name="type" class="absolute top-0 right-0 h-full w-full opacity-0 cursor-pointer" />
+                                    <input type="radio" name="type"
+                                        class="absolute top-0 right-0 h-full w-full opacity-0 cursor-pointer" />
                                     <div class="p-3 w-full flex items-center">
                                         <span class="block font-medium text-gray-700 text-xs mr-4">
                                             گزینه اول
@@ -344,7 +349,8 @@
                                     </div>
                                 </div>
                                 <div class="relative flex bg-white h-10 hover:bg-gray-100">
-                                    <input type="radio" name="type" class="absolute top-0 right-0 h-full w-full opacity-0 cursor-pointer" />
+                                    <input type="radio" name="type"
+                                        class="absolute top-0 right-0 h-full w-full opacity-0 cursor-pointer" />
                                     <div class="p-3 w-full flex items-center">
                                         <span class="block font-medium text-gray-700 text-xs mr-4">
                                             گزینه دوم
@@ -352,17 +358,103 @@
                                     </div>
                                 </div>
                                 <div class="relative flex bg-white h-10 hover:bg-gray-100">
-                                    <input type="radio" name="type" class="absolute top-0 right-0 h-full w-full opacity-0 cursor-pointer" />
+                                    <input type="radio" name="type"
+                                        class="absolute top-0 right-0 h-full w-full opacity-0 cursor-pointer" />
                                     <div class="p-3 w-full flex items-center">
                                         <span class="block font-medium text-gray-700 text-xs mr-4">
                                             گزینه سوم
                                         </span>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        {{-- table with flexbox --}}
+        <div class="mt-64 bg-transparent w-11/12 mx-auto h-full text-center">
+            <div class="title md:flex hidden py-2 text-sm text-gray-500 px-2">
+                <span class="flex-1 text-right">شرکت</span>
+                <span class="flex-1 text-right">نوع</span>
+                <span class="flex-1 text-right">صنعت</span>
+                <span class="flex-1 text-right">وضعیت</span>
+                <span class="flex-1 text-right">مخاطبین</span>
+                <span class="flex-1 text-left">عملیات</span>
+            </div>
+            {{-- body --}}
+            <div class="flex flex-col md:flex-row bg-white border border-gray-400 mt-2 px-2 rounded-md py-3">
+                <div class="md:flex-1 justify-between flex px-4 md:px-0 mb-2 md:mb-0">
+                    <span class="flex md:absolute md:hidden text-sm text-gray-500">شرکت</span>
+                    <span class=" font-medium my-auto text-gray-800">نام شرکت</span>
+                </div>
+                <div class="md:flex-1 justify-between flex px-4 md:px-0 mb-2 md:mb-0">
+                    <span class="flex md:absolute md:hidden font-normal text-sm text-gray-500">نوع</span>
+                    <span class=" text-sm text-gray-500 my-auto">استارت آپ</span>
+                </div>
+                <div class="md:flex-1 justify-between flex px-4 md:px-0 mb-2 md:mb-0">
+                    <span class="flex md:absolute md:hidden font-normal text-sm text-gray-500">صنعت</span>
+                    <span class=" text-sm text-gray-500 my-auto">نرم افزار</span>
+                </div>
+                <div class="md:flex-1 justify-between flex px-4 md:px-0 mb-2 md:mb-0">
+                    <span class="flex md:absolute md:hidden font-normal">وضعیت</span>
+                    <span class="py-2 px-4 bg-emerald-400 text-white rounded-full text-xs m-1 inline-block">فعال</span>
+                </div>
+                <div class="md:flex-1 justify-between flex px-4 md:px-0 mb-4 md:mb-0">
+                    <span class="flex md:absolute md:hidden font-normal">مخاطبین</span>
+                    <div class="w-32 relative">
+                        <img src="./img/8.jpg" alt="logo" class="w-8 inline-block rounded-full absolute left-0 right-auto md:left-auto md:right-0">
+                        <img src="./img/8.jpg" alt="logo" class="w-8 inline-block rounded-full absolute left-6 right-auto md:left-auto md:right-6">
+                        <img src="./img/8.jpg" alt="logo" class="w-8 inline-block rounded-full absolute left-12 right-auto md:left-auto md:right-12">
+                    </div>
+                </div>
+                <div class="md:flex-1 justify-between md:justify-end flex  px-4 md:px-0 mb-2 md:mb-0">
+                    <span class="my-auto relative p-2 rounded-full hover:bg-gray-100 transition-all cursor-pointer">
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-500 item" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+                        </div>
+                        <div class="w-64 items border border-gray-500 rounded-md absolute left-auto right-0 md:right-auto md:left-0 bottom-full hidden">
+                            <a href="#" class="py-2 px-4 transition-all flex rounded-md items-center text-right bg-white z-10 hover:bg-gray-100 cursor-pointer">
+                                <div class="inline-block">
+                                    <i class="fa fa-eye text-lg text-gray-700"></i>
+                                </div>
+                                <div class="inline-block mr-4">
+                                    <span class="text-sm text-gray-700 block">نمایش</span>
+                                    <span class="text-xs text-gray-400 block">زیرنویس محتوای نمایش</span>
+                                </div>
+                            </a>
+                            <a href="#" class="py-2 px-4 transition-all flex rounded-md items-center text-right bg-white z-10 hover:bg-gray-100 cursor-pointer">
+                                <div class="inline-block">
+                                    <i class="fa fa-dollar text-lg text-gray-700"></i>
+                                </div>
+                                <div class="inline-block mr-4">
+                                    <span class="text-sm text-gray-700 block">قرارداد</span>
+                                    <span class="text-xs text-gray-400 block">بستن یک قرار داد تازه</span>
+                                </div>
+                            </a>
+                            <a href="#" class="pt-2 pb-4 px-4 mb-2 transition-all flex rounded-md items-center text-right bg-white z-10 hover:bg-gray-100 cursor-pointer">
+                                <div class="inline-block">
+                                    <i class="fa fa-calendar text-lg text-gray-700"></i>
+                                </div>
+                                <div class="inline-block mr-4">
+                                    <span class="text-sm text-gray-700 block">برنامه ریزی</span>
+                                    <span class="text-xs text-gray-400 block">برنامه ریزی برای ملاقات</span>
+                                </div>
+                            </a>
+                            <hr />
+                            <a href="#" class="pb-2 pt-4 px-4 transition-all flex rounded-md items-center text-right bg-white z-10 hover:bg-gray-100 cursor-pointer">
+                                <div class="inline-block">
+                                    <i class="fa fa-trash-o text-lg text-gray-700"></i>
+                                </div>
+                                <div class="inline-block mr-4">
+                                    <span class="text-sm text-gray-700 block">حذف</span>
+                                    <span class="text-xs text-gray-400 block">حذف از لیست</span>
+                                </div>
+                            </a>
+                        </div>
+                    </span>
+                    <span class="flex md:absolute md:hidden text-sm text-gray-500 my-auto">فعالیت</span>
                 </div>
             </div>
         </div>
