@@ -310,6 +310,12 @@
                 </div>
             </div>
         </div>
+        <div class="mt-4">
+            <div class="thin-switch is-primary block mr-4">
+                <input id="thin-switch-2" class="input hidden h-10 transition-all" type="checkbox" checked="">
+                <label for="thin-switch-2" class="slider relative inline-block h-2 w-8 rounded-md cursor-pointer transition-all bg-gray-300"></label>
+            </div>
+        </div>
         <div class="mt-8">
             radio button
             <div class="relative">
@@ -404,18 +410,29 @@
                 <div class="md:flex-1 justify-between flex px-4 md:px-0 mb-4 md:mb-0">
                     <span class="flex md:absolute md:hidden font-normal">مخاطبین</span>
                     <div class="w-32 relative">
-                        <img src="./img/8.jpg" alt="logo" class="w-8 inline-block rounded-full absolute left-0 right-auto md:left-auto md:right-0">
-                        <img src="./img/8.jpg" alt="logo" class="w-8 inline-block rounded-full absolute left-6 right-auto md:left-auto md:right-6">
-                        <img src="./img/8.jpg" alt="logo" class="w-8 inline-block rounded-full absolute left-12 right-auto md:left-auto md:right-12">
+                        <img src="./img/8.jpg" alt="logo"
+                            class="w-8 inline-block rounded-full absolute left-0 right-auto md:left-auto md:right-0">
+                        <img src="./img/8.jpg" alt="logo"
+                            class="w-8 inline-block rounded-full absolute left-6 right-auto md:left-auto md:right-6">
+                        <img src="./img/8.jpg" alt="logo"
+                            class="w-8 inline-block rounded-full absolute left-12 right-auto md:left-auto md:right-12">
                     </div>
                 </div>
                 <div class="md:flex-1 justify-between md:justify-end flex  px-4 md:px-0 mb-2 md:mb-0">
                     <span class="my-auto relative p-2 rounded-full hover:bg-gray-100 transition-all cursor-pointer">
                         <div class="">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-500 item" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-500 item" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
+                                <circle cx="12" cy="12" r="1"></circle>
+                                <circle cx="12" cy="5" r="1"></circle>
+                                <circle cx="12" cy="19" r="1"></circle>
+                            </svg>
                         </div>
-                        <div class="w-64 items border border-gray-500 rounded-md absolute left-auto right-0 md:right-auto md:left-0 bottom-full hidden">
-                            <a href="#" class="py-2 px-4 transition-all flex rounded-md items-center text-right bg-white z-10 hover:bg-gray-100 cursor-pointer">
+                        <div
+                            class="w-64 items border border-gray-500 rounded-md absolute left-auto right-0 md:right-auto md:left-0 bottom-full hidden">
+                            <a href="#"
+                                class="py-2 px-4 transition-all flex rounded-md items-center text-right bg-white z-10 hover:bg-gray-100 cursor-pointer">
                                 <div class="inline-block">
                                     <i class="fa fa-eye text-lg text-gray-700"></i>
                                 </div>
@@ -424,7 +441,8 @@
                                     <span class="text-xs text-gray-400 block">زیرنویس محتوای نمایش</span>
                                 </div>
                             </a>
-                            <a href="#" class="py-2 px-4 transition-all flex rounded-md items-center text-right bg-white z-10 hover:bg-gray-100 cursor-pointer">
+                            <a href="#"
+                                class="py-2 px-4 transition-all flex rounded-md items-center text-right bg-white z-10 hover:bg-gray-100 cursor-pointer">
                                 <div class="inline-block">
                                     <i class="fa fa-dollar text-lg text-gray-700"></i>
                                 </div>
@@ -433,7 +451,8 @@
                                     <span class="text-xs text-gray-400 block">بستن یک قرار داد تازه</span>
                                 </div>
                             </a>
-                            <a href="#" class="pt-2 pb-4 px-4 mb-2 transition-all flex rounded-md items-center text-right bg-white z-10 hover:bg-gray-100 cursor-pointer">
+                            <a href="#"
+                                class="pt-2 pb-4 px-4 mb-2 transition-all flex rounded-md items-center text-right bg-white z-10 hover:bg-gray-100 cursor-pointer">
                                 <div class="inline-block">
                                     <i class="fa fa-calendar text-lg text-gray-700"></i>
                                 </div>
@@ -443,7 +462,8 @@
                                 </div>
                             </a>
                             <hr />
-                            <a href="#" class="pb-2 pt-4 px-4 transition-all flex rounded-md items-center text-right bg-white z-10 hover:bg-gray-100 cursor-pointer">
+                            <a href="#"
+                                class="pb-2 pt-4 px-4 transition-all flex rounded-md items-center text-right bg-white z-10 hover:bg-gray-100 cursor-pointer">
                                 <div class="inline-block">
                                     <i class="fa fa-trash-o text-lg text-gray-700"></i>
                                 </div>
@@ -457,8 +477,254 @@
                     <span class="flex md:absolute md:hidden text-sm text-gray-500 my-auto">فعالیت</span>
                 </div>
             </div>
+            <div class="mt-8 pb-16 w-full">
+                <ul class="list-reset flex border-b border-gray-300">
+                    <li class="-mb-px mr-1">
+                        <button onclick="tabs(event, 'London')"
+                            class="bg-white transition-all isactive inline-block py-2 px-4 font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600 focus:text-purple-800"
+                            href="#">لندن</button>
+                    </li>
+                    <li class="mr-1">
+                        <button onclick="tabs(event, 'Paris')"
+                            class="bg-white transition-all isactive inline-block py-2 px-4 hover:text-blue-darker font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600 focus:text-purple-800"
+                            href="#">پاریس</button>
+                    </li>
+                    <li class="mr-1">
+                        <button onclick="tabs(event, 'Tokyo')"
+                            class="bg-white transition-all isactive inline-block py-2 px-4 hover:text-blue-darker font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600 focus:text-purple-800"
+                            href="#">توکیو</button>
+                    </li>
+                </ul>
+                <div id="London"
+                    class="tabcontent overflow-hidden w-0 h-0 transition-all delay-500 ease-in duration-200 text-right">
+                    <p>لندن پایتخت انگلستان است.</p>
+                </div>
+
+                <div id="Paris"
+                    class="tabcontent overflow-hidden w-0 h-0 transition-all delay-500 ease-in duration-200 text-right">
+                    <p>پاریس پایتخت فرانسه است.</p>
+                </div>
+
+                <div id="Tokyo"
+                    class="tabcontent overflow-hidden w-0 h-0 transition-all delay-500 ease-in duration-200 text-right">
+                    <p>توکیو پایتخت ژاپن است.</p>
+                </div>
+            </div>
+            <div class="mt-8 pb-16 w-full">
+                <ul class="list-reset flex justify-center border-b border-gray-300">
+                    <li class="-mb-px mr-1">
+                        <button onclick="centerTabs(event, 'Tehran')"
+                            class="centered bg-white transition-all inline-block py-2 px-4 font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600 focus:text-purple-800"
+                            href="#">تهران</button>
+                    </li>
+                    <li class="mr-1">
+                        <button onclick="centerTabs(event, 'Karaj')"
+                            class="centered bg-white transition-all inline-block py-2 px-4 hover:text-blue-darker font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600 focus:text-purple-800"
+                            href="#">کرج</button>
+                    </li>
+                    <li class="mr-1">
+                        <button onclick="centerTabs(event, 'Ghom')"
+                            class="centered bg-white transition-all inline-block py-2 px-4 hover:text-blue-darker font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600 focus:text-purple-800"
+                            href="#">قم</button>
+                    </li>
+                </ul>
+                <div id="Tehran"
+                    class="centertabs overflow-hidden w-0 h-0 transition-all delay-500 ease-in duration-200 mx-auto">
+                    <p>تهران پایتخت ایران است.</p>
+                </div>
+
+                <div id="Karaj"
+                    class="centertabs overflow-hidden w-0 h-0 transition-all delay-500 ease-in duration-200 mx-auto">
+                    <p>کرج همسایه تهران است.</p>
+                </div>
+
+                <div id="Ghom"
+                    class="centertabs overflow-hidden w-0 h-0 transition-all delay-500 ease-in duration-200 mx-auto">
+                    <p>قم کنار کرج است.</p>
+                </div>
+            </div>
+            <div class="mt-8 pb-16 w-full">
+                <ul class="list-reset flex border-b border-gray-300">
+                    <li class="-mb-px mr-1">
+                        <button onclick="BoxedTabs(event, 'BMW')"
+                            class="BoxedTab rounded-t-md bg-white transition-all inline-block py-2 px-4 font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600 focus:text-purple-800 activeBox"
+                            href="#">بی ام و</button>
+                    </li>
+                    <li class="mr-1">
+                        <button onclick="BoxedTabs(event, 'Benz')"
+                            class="BoxedTab rounded-t-md bg-white transition-all inline-block py-2 px-4 hover:text-blue-darker font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600 focus:text-purple-800"
+                            href="#">بنز</button>
+                    </li>
+                    <li class="mr-1">
+                        <button onclick="BoxedTabs(event, 'Pride')"
+                            class="BoxedTab rounded-t-md bg-white transition-all inline-block py-2 px-4 hover:text-blue-darker font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600 focus:text-purple-800"
+                            href="#">پراید</button>
+                    </li>
+                </ul>
+                <div id="BMW"
+                    class="Boxed overflow-hidden transition-all delay-500 ease-in duration-200">
+                    <p class="text-right">بی ام و محصول کشور آلمان ایت.</p>
+                </div>
+
+                <div id="Benz"
+                    class="Boxed overflow-hidden w-0 h-0 transition-all delay-500 ease-in duration-200">
+                    <p class="text-right">بنز محصول آلمان است.</p>
+                </div>
+
+                <div id="Pride"
+                    class="Boxed overflow-hidden w-0 h-0 transition-all delay-500 ease-in duration-200">
+                    <p class="text-right">پراید محصول خودمونه.</p>
+                </div>
+            </div>
+            {{-- toggle tabs --}}
+            <div class="mt-8 pb-16 w-full">
+                <ul class="list-reset flex">
+                    <li class="border border-gray-300 rounded-r-md">
+                        <button onclick="toggleTabs(event, 'ronaldo')"
+                            class="toggleTabs toggletabs bg-white rounded-r-md hover:bg-gray-100 transition-all inline-block py-2 px-4 font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600"
+                            href="#">رونالدو</button>
+                    </li>
+                    <li class="border border-gray-300 -mr-px">
+                        <button onclick="toggleTabs(event, 'messi')"
+                            class="toggleTabs bg-white hover:bg-gray-100 transition-all inline-block py-2 px-4 font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600"
+                            href="#">مسی</button>
+                    </li>
+                    <li class="border border-gray-300 rounded-l-md -mr-px">
+                        <button onclick="toggleTabs(event, 'ramos')"
+                            class="toggleTabs rounded-l-md bg-white hover:bg-gray-100 transition-all inline-block py-2 px-4 font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600"
+                            href="#">راموس</button>
+                    </li>
+                </ul>
+                <div id="ronaldo"
+                    class="toggle overflow-hidden w-auto transition-all delay-500 ease-in duration-200">
+                    <p class="text-right">رونالدو اهل پرتغاله.</p>
+                </div>
+
+                <div id="messi"
+                    class="toggle overflow-hidden w-auto transition-all delay-500 ease-in duration-200 hidden">
+                    <p class="text-right">مسی اهل آرژانتینه.</p>
+                </div>
+
+                <div id="ramos"
+                    class="toggle overflow-hidden w-auto transition-all delay-500 ease-in duration-200 hidden">
+                    <p class="text-right">راموس اهل اسپانیاس.</p>
+                </div>
+            </div>
+            {{-- rounded toggle tabs --}}
+            <div class="mt-8 pb-16 w-full">
+                <ul class="list-reset flex">
+                    <li class="border border-gray-300 rounded-r-full">
+                        <button onclick="roundedtoggleTabs(event, 'shahrokh')"
+                            class="roundedtoggleTabs roundedtoggletabs bg-white rounded-r-full hover:bg-gray-100 transition-all inline-block py-2 px-4 font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600"
+                            href="#">شاهرخ خان</button>
+                    </li>
+                    <li class="border border-gray-300 -mr-px">
+                        <button onclick="roundedtoggleTabs(event, 'golshifte')"
+                            class="roundedtoggleTabs bg-white hover:bg-gray-100 transition-all inline-block py-2 px-4 font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600"
+                            href="#">گلشیفته</button>
+                    </li>
+                    <li class="border border-gray-300 rounded-l-full -mr-px">
+                        <button onclick="roundedtoggleTabs(event, 'leo')"
+                            class="roundedtoggleTabs rounded-l-full bg-white hover:bg-gray-100 transition-all inline-block py-2 px-4 font-semibold outline-none focus:outline-none text-gray-500 hover:text-gray-600"
+                            href="#">دیکاپریو</button>
+                    </li>
+                </ul>
+                <div id="shahrokh"
+                    class="roundedtoggle overflow-hidden w-auto transition-all delay-500 ease-in duration-200">
+                    <p class="text-right">شاهرخ خان اهل هندوستانه.</p>
+                </div>
+
+                <div id="golshifte"
+                    class="roundedtoggle overflow-hidden w-auto transition-all delay-500 ease-in duration-200 hidden">
+                    <p class="text-right">گلشیفته اهل ایرانه.</p>
+                </div>
+
+                <div id="leo"
+                    class="roundedtoggle overflow-hidden w-auto transition-all delay-500 ease-in duration-200 hidden">
+                    <p class="text-right">دیکاپریو نمیدونم کجاییه.</p>
+                </div>
+            </div>
         </div>
     </div>
+    <script>
+        function tabs(e, city) {
+            let i;
+            let tabcity = document.querySelectorAll('.tabcontent');
+            for (i = 0; i < tabcity.length; i++) {
+                tabcity[i].style.height = '0px';
+                tabcity[i].style.width = '0px';
+                console.log(i)
+            }
+            let list = document.getElementsByClassName('isactive');
+            for (i = 0; i < list.length; i++) {
+                list[i].className = list[i].className.replace(' active', '')
+            }
+            document.getElementById(city).style.height = '48px';
+            document.getElementById(city).style.width = '256px';
+            e.currentTarget.className += ' active'
+        }
+        function centerTabs(e, city) {
+            let i;
+            let tabcity = document.querySelectorAll('.centertabs');
+            for (i = 0; i < tabcity.length; i++) {
+                tabcity[i].style.height = '0px';
+                tabcity[i].style.width = '0px';
+                console.log(i)
+            }
+            let list = document.getElementsByClassName('centered');
+            for (i = 0; i < list.length; i++) {
+                list[i].className = list[i].className.replace(' active', '')
+            }
+            document.getElementById(city).style.height = '48px';
+            document.getElementById(city).style.width = '256px';
+            e.currentTarget.className += ' active'
+        }
+        function BoxedTabs(e, city) {
+            let i;
+            let tabcity = document.querySelectorAll('.Boxed');
+            for (i = 0; i < tabcity.length; i++) {
+                tabcity[i].style.height = '0px';
+                tabcity[i].style.width = '0px';
+                console.log(i)
+            }
+            let list = document.getElementsByClassName('BoxedTab');
+            for (i = 0; i < list.length; i++) {
+                list[i].className = list[i].className.replace(' activeBox', '')
+            }
+            document.getElementById(city).style.height = '48px';
+            document.getElementById(city).style.width = '256px';
+            e.currentTarget.className += ' activeBox'
+        }
+        function toggleTabs(e, city) {
+            let i;
+            let tabcity = document.querySelectorAll('.toggle');
+            for (i = 0; i < tabcity.length; i++) {
+                tabcity[i].style.display = 'none';
+                console.log(i)
+            }
+            let list = document.getElementsByClassName('toggleTabs');
+            for (i = 0; i < list.length; i++) {
+                list[i].className = list[i].className.replace(' toggletabs', '')
+            }
+            document.getElementById(city).style.display = 'block';
+            e.currentTarget.className += ' toggletabs'
+        }
+        function roundedtoggleTabs(e, city) {
+            let i;
+            let tabcity = document.querySelectorAll('.roundedtoggle');
+            for (i = 0; i < tabcity.length; i++) {
+                tabcity[i].style.display = 'none';
+                console.log(i)
+            }
+            let list = document.getElementsByClassName('roundedtoggleTabs');
+            for (i = 0; i < list.length; i++) {
+                list[i].className = list[i].className.replace(' roundedtoggletabs', '')
+            }
+            document.getElementById(city).style.display = 'block';
+            e.currentTarget.className += ' roundedtoggletabs'
+        }
+
+    </script>
 </body>
 
 </html>
