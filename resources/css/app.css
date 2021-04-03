@@ -276,20 +276,13 @@
         pointer-events: none;
     } */
     
-    .form-switch.is-primary input:checked+i {
+    .form-switch input:checked+i {
         background-color: #671cc9;
     }
     
     .form-switch i {
-        /* position: relative; */
-        /* display: inline-block; */
         width: 46px;
         height: 26px;
-        /* background-color: #e6e6e6; */
-        /* border-radius: 23px; */
-        /* vertical-align: text-bottom; */
-        /* -webkit-transition: all 0.3s linear; */
-        /* transition: all 0.3s linear; */
     }
     
     .form-switch input:checked+i::before {
@@ -431,4 +424,35 @@
     .roundedtoggletabs {
         background-color: #7e22ce;
         color: #fff;
+    }
+    /* accordion starts */
+    .accordion-header .accordion-title::before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        background-color: yellow;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .is-active .accordion-content {
+        max-height: 20rem !important;
+    }
+    .accordion-header.is-active .accordion-title::before{
+        background-color: rgb(57, 24, 240);
+    }
+    /* breafcrumb */
+    .custom-breadcrumb::before {
+        content: "\02022";
+        /* width: 4px; */
+        /* height: 4px; */
+        /* border-radius: 50%; */
+        /* background-color: gray; */
+        /* display: inline-block; */
+        margin-right: 8px;
+        color: gray;
+    }
+    /* input items */
+    .show-items + .custom-input-items{
+        max-height: 10rem;
     }

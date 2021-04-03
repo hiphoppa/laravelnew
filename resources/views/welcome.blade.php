@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {{--
-    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v27.2.0/dist/font-face.css" rel="stylesheet"
-        --}} {{-- type="text/css" />
-    --}}
+    {{-- <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v27.2.0/dist/font-face.css" rel="stylesheet" --}} {{-- type="text/css" /> --}}
     <link rel="stylesheet" href="./css/font-awesome.css">
     <link rel="stylesheet" href="/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
@@ -18,8 +15,9 @@
     <title>Laravel</title>
 </head>
 
-<body>
-    <div class="buttons w-full h-full bg-white">
+
+<body class="bg-white">
+    <div class="buttons">
         <div class="h-buttons pt-2">
             <button
                 class="rounded-md border hover:border-gray-400 transition-all duration-300 text-sm text-gray-700 bg-white px-5 py-2 outline-none focus:outline-none mx-0.5">
@@ -237,6 +235,9 @@
                 <i class="fa fa-linkedin my-auto"></i>
             </button>
         </div>
+    </div>
+    <div class="mb-4">
+        {{-- save --}}
         <div class="flex m-2">
             <button
                 class="text-sm  rounded-r-none focus:outline-none flex justify-center px-5 py-2 rounded cursor-pointer border">
@@ -260,13 +261,218 @@
                 </div>
             </button>
         </div>
-        <div class="mt-4">
-            <label class="inline-flex items-center gap-4">
-                <input type="radio" class="form-radio hover:shadow-xl w-5 h-5 border border-gray-300" name="accountType"
-                    value="personal">
-                <span class="ml-2">Personal</span>
-            </label>
+        {{-- avatars --}}
+        <div class="flex gap-4 items-end">
+            <img src="img/8.jpg" alt="" class="w-32 h-32 rounded-full">
+            <img src="img/8.jpg" alt="" class="w-28 h-28 rounded-full">
+            <img src="img/8.jpg" alt="" class="w-24 h-24 rounded-full">
+            <img src="img/8.jpg" alt="" class="w-20 h-20 rounded-full">
+            <img src="img/8.jpg" alt="" class="w-16 h-16 rounded-full">
+            <img src="img/8.jpg" alt="" class="w-12 h-12 rounded-full">
         </div>
+        {{-- square avatars --}}
+        <div class="flex gap-4 items-end">
+            <img src="img/8.jpg" alt="" class="w-32 h-32 rounded-3xl">
+            <img src="img/8.jpg" alt="" class="w-28 h-28 rounded-3xl">
+            <img src="img/8.jpg" alt="" class="w-24 h-24 rounded-3xl">
+            <img src="img/8.jpg" alt="" class="w-20 h-20 rounded-3xl">
+            <img src="img/8.jpg" alt="" class="w-16 h-16 rounded-3xl">
+            <img src="img/8.jpg" alt="" class="w-12 h-12 rounded-3xl">
+        </div>
+        {{-- rounded avatar dots --}}
+        <div class="flex gap-4 items-end">
+            <div class="relative">
+                <img src="img/8.jpg" alt="" class="w-32 h-32 rounded-full">
+                <div class="w-6 h-6 rounded-full bg-green-500 absolute top-2 right-2 border-2 border-white"></div>
+            </div>
+            <div class="relative">
+                <img src="img/8.jpg" alt="" class="w-28 h-28 rounded-full">
+                <div class="w-6 h-6 rounded-full bg-green-500 absolute top-2 right-2 border-2 border-white"></div>
+            </div>
+            <div class="relative">
+                <img src="img/8.jpg" alt="" class="w-24 h-24 rounded-full">
+                <div class="w-5 h-5 rounded-full bg-green-500 absolute top-1.5 right-1.5 border-2 border-white"></div>
+            </div>
+            <div class="relative">
+                <img src="img/8.jpg" alt="" class="w-20 h-20 rounded-full">
+                <div class="w-4 h-4 rounded-full bg-green-500 absolute top-1.5 right-1.5 border-2 border-white"></div>
+            </div>
+            <div class="relative">
+                <img src="img/8.jpg" alt="" class="w-16 h-16 rounded-full">
+                <div class="w-3.5 h-3.5 rounded-full bg-green-500 absolute top-1 right-1 border-2 border-white"></div>
+            </div>
+            <div class="relative">
+                <img src="img/8.jpg" alt="" class="w-12 h-12 rounded-full">
+                <div class="w-3 h-3 rounded-full bg-green-500 absolute top-1 right-1 border-2 border-white"></div>
+            </div>
+        </div>
+        {{-- square avatar dots --}}
+        <div class="flex gap-4 items-end mr-4">
+            <div class="relative">
+                <img src="img/8.jpg" alt="" class="w-32 h-32 rounded-3xl">
+                <div class="w-6 h-6 rounded-full bg-green-500 absolute -top-1 -right-1 border-2 border-white"></div>
+            </div>
+            <div class="relative">
+                <img src="img/8.jpg" alt="" class="w-28 h-28 rounded-3xl">
+                <div class="w-6 h-6 rounded-full bg-green-500 absolute -top-1 -right-1 border-2 border-white"></div>
+            </div>
+            <div class="relative">
+                <img src="img/8.jpg" alt="" class="w-24 h-24 rounded-3xl">
+                <div class="w-5 h-5 rounded-full bg-green-500 absolute -top-1 -right-1 border-2 border-white"></div>
+            </div>
+            <div class="relative">
+                <img src="img/8.jpg" alt="" class="w-20 h-20 rounded-2xl">
+                <div class="w-4 h-4 rounded-full bg-green-500 absolute top-0 right-0 border-2 border-white"></div>
+            </div>
+            <div class="relative">
+                <img src="img/8.jpg" alt="" class="w-16 h-16 rounded-xl">
+                <div class="w-3.5 h-3.5 rounded-full bg-green-500 absolute -top-0.5 -right-0.5 border-2 border-white">
+                </div>
+            </div>
+            <div class="relative">
+                <img src="img/8.jpg" alt="" class="w-12 h-12 rounded-xl">
+                <div class="w-3 h-3 rounded-full bg-green-500 absolute -top-0.5 -right-0.5 border-2 border-white"></div>
+            </div>
+        </div>
+        {{-- accordions --}}
+        <ul class="list-none mt-8 ltr w-40">
+            <li class="accordion-header cursor-pointer mb-4">
+                <div class="text-base accordion-title">
+                    accordion header
+                </div>
+                <div class="accordion-content max-h-0 overflow-y-hidden transition-all duration-300">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi
+                </div>
+            </li>
+            <li class="accordion-header cursor-pointer mb-4">
+                <div class="text-base accordion-title">
+                    accordion header
+                </div>
+                <div class="accordion-content max-h-0 overflow-y-hidden transition-all duration-300">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi
+                </div>
+            </li>
+            <li class="accordion-header cursor-pointer mb-4">
+                <div class="text-base accordion-title">
+                    accordion header
+                </div>
+                <div class="accordion-content max-h-0 overflow-y-hidden transition-all duration-300">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi
+                </div>
+            </li>
+        </ul>
+        {{-- breadcrumbs --}}
+        <ul class="list-none flex gap-4 ltr">
+            <li class="text-lg cursor-pointer text-gray-500 hover:text-blue-600">home</li>
+            <li class="text-lg cursor-pointer text-gray-500">/</li>
+            <li class="text-lg cursor-pointer text-gray-500 hover:text-blue-600">start</li>
+            <li class="text-lg cursor-pointer text-gray-500">/</li>
+            <li class="text-lg cursor-pointer text-gray-500 hover:text-blue-600">here</li>
+        </ul>
+        {{-- breadcrumb with before --}}
+        <ul class="list-none flex gap-4 ltr">
+            <li class="text-lg flex cursor-pointer text-gray-500 hover:text-blue-600">home</li>
+            <li class="text-lg flex custom-breadcrumb cursor-pointer text-gray-500 hover:text-blue-600">start</li>
+            <li class="text-lg flex custom-breadcrumb cursor-pointer text-gray-500 hover:text-blue-600">here</li>
+        </ul>
+        {{-- massages --}}
+        <div class="block w-full">
+            <div class="relative w-3/4 h-48 py-4 px-4 bg-yellow-100 ltr border border-yellow-200 rounded-md">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus
+                aenean vel elit scelerisque In egestas erat imperdiet sed euismod nisi porta lorem mollis
+                <a href="#" class="absolute top-4 right-4">
+                    <i class="fa fa-close"></i>
+                </a>
+            </div>
+        </div>
+        {{-- icon box --}}
+        <div class="flex gap-4 items-end">
+            <div class="w-32 h-32 rounded-full flex justify-center items-center bg-gray-500">
+                <i class="fa fa-pencil text-blue-700 text-6xl"></i>
+            </div>
+            <div class="w-28 h-28 rounded-3xl flex justify-center items-center bg-gray-500">
+                <i class="fa fa-pencil text-blue-700 text-5xl"></i>
+            </div>
+            <div class="w-24 h-24 rounded-full flex justify-center items-center bg-gray-500">
+                <i class="fa fa-pencil text-blue-700 text-4xl"></i>
+            </div>
+            <div class="w-20 h-20 rounded-2xl flex justify-center items-center bg-gray-500">
+                <i class="fa fa-pencil text-blue-700 text-3xl"></i>
+            </div>
+            <div class="w-16 h-16 rounded-full flex justify-center items-center bg-gray-500">
+                <i class="fa fa-pencil text-blue-700 text-2xl"></i>
+            </div>
+            <div class="w-12 h-12 rounded-xl flex justify-center items-center bg-gray-500">
+                <i class="fa fa-pencil text-blue-700 text-xl"></i>
+            </div>
+        </div>
+        {{-- modals --}}
+        modal
+        {{-- center-action --}}
+        <div class="ltr">
+            <a href="#" class="modal-open px-4 py-2 border border-gray-500 rounded-full">center action</a>
+            <div
+                class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center z-20">
+                <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
+
+                <div
+                    class="modal-container bg-white dark:bg-gray-700 max-w-screen-sm w-full mx-auto rounded shadow-lg z-50 overflow-y-auto">
+
+                    <div
+                        class="modal-close absolute top-0 right-0 cursor-pointer flex flex-col items-center mt-4 mr-4 text-white text-sm z-50">
+                        <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                            viewBox="0 0 18 18">
+                            <path
+                                d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z">
+                            </path>
+                        </svg>
+                        <span class="text-sm">(Esc)</span>
+                    </div>
+                    <div class="modal-content">
+                        <div class="flex justify-between px-4 py-4 border-b border-gray-400">
+                            <h3 class="">did you know?</h3>
+                            <i class="fa fa-close modal-close cursor-pointer"></i>
+                        </div>
+                        <div class="pb-4">
+                            <div class="flex justify-center">
+                                <img src="img/huro.svg" alt="empty" class="h-44">
+                            </div>
+                            <div class="flex justify-center gap-4">
+                                <button class="px-4 py-2 rounded-full bg-indigo-700 text-white">confirm</button>
+                                <button class="px-4 py-2 rounded-full bg-gray-300">cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- progressbar --}}
+        progressbar
+        <div>
+            <div class="relative pt-1 w-96">
+                <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-pink-200">
+                    <div style="width:30%"
+                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-pink-500 rounded-full">
+                    </div>
+                </div>
+            </div>
+            <div class="relative pt-1 w-96">
+                <div class="overflow-hidden h-4 mb-4 text-xs flex rounded-full bg-blue-200">
+                    <div style="width:65%"
+                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500 rounded-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        {{-- checkboxes --}}
+        checkboxes
         <div class="mt-4 w-28">
             <div class="checkbox w-full relative block text-gray-400 text-sm">
                 <input type="checkbox" id="checkbox" name="" value="" class="w-auto opacity-5 absolute left-0" />
@@ -299,51 +505,49 @@
                 </label>
             </div>
         </div>
+        {{-- toggle --}}
+        toggle checkbox
         <div class="custom-tags mt-4">
             <div class="flex items-center">
                 <span class="text-gray-400 text-md ml-4">ذخیره</span>
                 <div class="control inline-block w-12">
-                    <label class="form-switch is-primary relative inline-block cursor-pointer">
+                    <label class="form-switch relative inline-block cursor-pointer">
                         <input type="checkbox" class="is-switch absolute opacity-0 cursor-default" checked="">
                         <i class="relative inline-block rounded-full transition-all bg-gray-200"></i>
                     </label>
                 </div>
             </div>
         </div>
-        <div class="mt-4">
+        {{-- <div class="mt-4">
             <div class="thin-switch is-primary block mr-4">
                 <input id="thin-switch-2" class="input hidden h-10 transition-all" type="checkbox" checked="">
-                <label for="thin-switch-2" class="slider relative inline-block h-2 w-8 rounded-md cursor-pointer transition-all bg-gray-300"></label>
+                <label for="thin-switch-2"
+                    class="slider relative inline-block h-2 w-8 rounded-md cursor-pointer transition-all bg-gray-300"></label>
             </div>
-        </div>
-        <div class="mt-8">
-            radio button
-            <div class="relative">
-                <label for="" class="relative cursor-pointer p-4 inline-block">
-                    input
-                </label>
-                <label for="" class=""></label>
-            </div>
-        </div>
+        </div> --}}
+        {{-- dropdown --}}
         <div class="my-8">
             {{-- input --}}
-            <div class="select py-2">
+            <div class=" py-2">
                 <label class="text-gray-500 text-sm"> مدل کاری </label>
                 <div class="relative">
                     <div class="z-10 w-32 absolute border rounded-md border-gray-300">
-                        <div
-                            class="relative flex items-center rounded-md pr-2.5 pl-10 h-9 w-full cursor-pointer bg-white">
-                            <span class="text-sm relative top-0"> گزینه </span>
+                        <div class="custom-choose">
+                            <div
+                                class="relative flex items-center rounded-md pr-2.5 pl-10 h-9 w-full cursor-pointer bg-white">
+                                <span class="text-sm relative top-0"> گزینه </span>
+                            </div>
+                            <div class="absolute top-0 left-0 w-9 h-9 flex justify-center items-center transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-chevron-down">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </div>
                         </div>
-                        <div class="absolute top-0 left-0 w-9 h-9 flex justify-center items-center transition-all">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-chevron-down">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                        </div>
+
                         <div
-                            class="absolute top-10 right-0 w-full overflow-y-auto bg-white border border-gray-400 rounded-md transition-all opacity-100 change">
+                            class="custom-input-items max-h-0 absolute top-10 right-0 w-full overflow-y-hidden bg-gray-200 rounded-md transition-all duration-300 opacity-100 change">
                             <div class="relative h-full w-full bg-whiite">
                                 <div class="relative flex bg-white h-10 hover:bg-gray-100">
                                     <input type="radio" name="type"
@@ -477,6 +681,9 @@
                     <span class="flex md:absolute md:hidden text-sm text-gray-500 my-auto">فعالیت</span>
                 </div>
             </div>
+        </div>
+        {{-- tabs --}}
+        <div>
             <div class="mt-8 pb-16 w-full">
                 <ul class="list-reset flex border-b border-gray-300">
                     <li class="-mb-px mr-1">
@@ -561,18 +768,15 @@
                             href="#">پراید</button>
                     </li>
                 </ul>
-                <div id="BMW"
-                    class="Boxed overflow-hidden transition-all delay-500 ease-in duration-200">
+                <div id="BMW" class="Boxed overflow-hidden transition-all delay-500 ease-in duration-200">
                     <p class="text-right">بی ام و محصول کشور آلمان ایت.</p>
                 </div>
 
-                <div id="Benz"
-                    class="Boxed overflow-hidden w-0 h-0 transition-all delay-500 ease-in duration-200">
+                <div id="Benz" class="Boxed overflow-hidden w-0 h-0 transition-all delay-500 ease-in duration-200">
                     <p class="text-right">بنز محصول آلمان است.</p>
                 </div>
 
-                <div id="Pride"
-                    class="Boxed overflow-hidden w-0 h-0 transition-all delay-500 ease-in duration-200">
+                <div id="Pride" class="Boxed overflow-hidden w-0 h-0 transition-all delay-500 ease-in duration-200">
                     <p class="text-right">پراید محصول خودمونه.</p>
                 </div>
             </div>
@@ -595,8 +799,7 @@
                             href="#">راموس</button>
                     </li>
                 </ul>
-                <div id="ronaldo"
-                    class="toggle overflow-hidden w-auto transition-all delay-500 ease-in duration-200">
+                <div id="ronaldo" class="toggle overflow-hidden w-auto transition-all delay-500 ease-in duration-200">
                     <p class="text-right">رونالدو اهل پرتغاله.</p>
                 </div>
 
@@ -645,6 +848,55 @@
                 </div>
             </div>
         </div>
+        {{-- snack --}}
+        snacks
+        <br />
+        <div>
+            <div class="inline-block align-top h-10 rounded-full bg-gray-200 cursor-pointer ltr hover:shadow-lg transition border border-gray-300">
+                <img src="img/8.jpg" alt="" class="h-full rounded-full inline-block">
+                <span class="text-base mx-1">corporate</span>
+                <i class="fa fa-close ml-2 mr-4"></i>
+            </div>
+            <div class="inline-block align-top h-10 rounded-full bg-white ltr cursor-pointer hover:shadow-lg transition border border-gray-300">
+                <img src="img/8.jpg" alt="" class="h-full rounded-full inline-block">
+                <span class="text-base mx-1">slicer</span>
+                <i class="fa fa-plus ml-2 mr-4"></i>
+            </div>
+            <div class="inline-block align-top h-10 rounded-full bg-white ltr cursor-pointer hover:shadow-lg transition border border-gray-300">
+                <div class="inline-block">
+                    <div class="flex justify-center items-center h-10 w-10 border border-gray-300 rounded-full ">
+                        <i class="fa fa-smile-o"></i>
+                    </div>
+                </div>
+                <span class="text-base mx-1">slicer</span>
+                <i class="fa fa-close ml-2 mr-4"></i>
+            </div>
+            <div class="inline-block align-top h-10 rounded-full bg-white ltr cursor-pointer hover:shadow-lg transition border border-gray-300">
+                <div class="inline-block">
+                    <div class="flex justify-center items-center h-10 w-10 border border-indigo-700 rounded-full ">
+                        <i class="fa fa-smile-o text-indigo-700"></i>
+                    </div>
+                </div>
+                <span class="text-base mx-1">slicer</span>
+                <i class="fa fa-close ml-2 mr-4"></i>
+            </div>
+            <div class="inline-block align-top h-10 rounded-full bg-gray-100 ltr cursor-pointer hover:shadow-lg transition border border-gray-300">
+                <div class="inline-block">
+                    <div class="flex justify-center items-center h-10 w-10 border border-indigo-700 bg-indigo-700 rounded-full ">
+                        <i class="fa fa-smile-o text-white"></i>
+                    </div>
+                </div>
+                <span class="text-base mx-1">slicer</span>
+                <i class="fa fa-close ml-2 mr-4"></i>
+            </div>
+        </div>
+        badge
+        <br />
+        <div class="flex gap-4">
+            <div class="px-2 py-1 rounded-full bg-blue-700 text-white text-base">primary</div>
+            <div class="px-2 py-1 rounded-full bg-yellow-400 text-gray-900 text-base">warning</div>
+            <div class="px-2 py-1 rounded-full bg-gray-100 text-red-600 text-base border border-red-600">danger</div>
+        </div>
     </div>
     <script>
         function tabs(e, city) {
@@ -663,6 +915,7 @@
             document.getElementById(city).style.width = '256px';
             e.currentTarget.className += ' active'
         }
+
         function centerTabs(e, city) {
             let i;
             let tabcity = document.querySelectorAll('.centertabs');
@@ -679,6 +932,7 @@
             document.getElementById(city).style.width = '256px';
             e.currentTarget.className += ' active'
         }
+
         function BoxedTabs(e, city) {
             let i;
             let tabcity = document.querySelectorAll('.Boxed');
@@ -695,6 +949,7 @@
             document.getElementById(city).style.width = '256px';
             e.currentTarget.className += ' activeBox'
         }
+
         function toggleTabs(e, city) {
             let i;
             let tabcity = document.querySelectorAll('.toggle');
@@ -709,6 +964,7 @@
             document.getElementById(city).style.display = 'block';
             e.currentTarget.className += ' toggletabs'
         }
+
         function roundedtoggleTabs(e, city) {
             let i;
             let tabcity = document.querySelectorAll('.roundedtoggle');
@@ -723,6 +979,55 @@
             document.getElementById(city).style.display = 'block';
             e.currentTarget.className += ' roundedtoggletabs'
         }
+        // accordion
+        const accordions = document.querySelectorAll('.accordion-header')
+        for (let i = 0; i < accordions.length; i++) {
+            accordions[i].addEventListener('click', function() {
+                accordions[i].classList.toggle('is-active')
+            })
+        }
+        // select input
+        const custom_select = document.querySelector('.custom-choose')
+        const custom_choose = document.querySelector('.custom-choose')
+        custom_select.addEventListener('click', function() {
+            custom_choose.classList.toggle('show-items')
+        })
+        // modal
+        function toggleModal() {
+            const body = document.querySelector('body')
+            const modal = document.querySelector('.modal')
+            modal.classList.toggle('opacity-0')
+            modal.classList.toggle('pointer-events-none')
+            body.classList.toggle('modal-active')
+        }
+        const openmodal = document.querySelectorAll('.modal-open')
+        for (var i = 0; i < openmodal.length; i++) {
+            openmodal[i].addEventListener('click', function(event) {
+                event.preventDefault()
+                toggleModal()
+            })
+        }
+
+        const overlay = document.querySelector('.modal-overlay')
+        overlay.addEventListener('click', toggleModal)
+
+        var closemodal = document.querySelectorAll('.modal-close')
+        for (var i = 0; i < closemodal.length; i++) {
+            closemodal[i].addEventListener('click', toggleModal)
+        }
+
+        document.onkeydown = function(evt) {
+            evt = evt || window.event
+            var isEscape = false
+            if ("key" in evt) {
+                isEscape = (evt.key === "Escape" || evt.key === "Esc")
+            } else {
+                isEscape = (evt.keyCode === 27)
+            }
+            if (isEscape && document.body.classList.contains('modal-active')) {
+                toggleModal()
+            }
+        };
 
     </script>
 </body>

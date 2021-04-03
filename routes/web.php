@@ -16,12 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/laravel', function () {
-    return view('laravel');
-});
+
 Route::get('/form', function () {
     return view('form');
-});
-Route::get('/d', function () {
-    return view('laraveld');
 });

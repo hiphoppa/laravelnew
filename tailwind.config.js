@@ -14,10 +14,10 @@ module.exports = {
             'xl': '1280px',
             '2xl': '1536px',
         },
-        maxWidth: {
-            'empty': '17.5rem',
-            '25': '25rem',
-        },
+        // maxWidth: {
+            // 'empty': '17.5rem',
+            // '25': '25rem',
+        // },
         minWidth: {
             '6': '6rem',
             '1.5': '1.5rem',
